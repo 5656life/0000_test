@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#wrapper {
+	position: relative;
+	width: 100%;
+}
+
+/***********************
+Utils
+***********************/
+
+
+.fl { float: left;}
+.fr { float: right;}
+
+.inner {
+	width: 980px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+.fl,.fr { float: none;}
+}
+
+/***********************
+Header-Nav
+***********************/
+
+#h-nav {
+	width: 100%;
+}
+
+#h-nav li {
+	float: left;
+	width: 20%;
+}
+
+#h-nav li a {
+	display: block;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+	#h-nav {display: none;}
+}
+
+/***********************
+Header
+***********************/
+
+#header {
+	padding: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+	#header {
+	}
+}
+
+
+/***********************
+Footer-Nav
+***********************/
+
+#f-nav {
+	width: 100%;
+}
+
+#f-nav li {
+	float: left;
+	width: 20%;
+}
+
+#f-nav li a {
+	display: block;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+	#f-nav {display: none;}
+}
+
+/***********************
+Footer
+***********************/
+
+#footer {
+	padding: 20px 0;
+}
+
+#footerCopyright {
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+	#footer {
+	}
+	
+	#footerCopyright {
+	}
+}
+
+/***********************
+Main
+***********************/
+
+#main {
+}
+
+#mv {
+	text-align: center;
+}
+
+.container {
+}
+
+.content {
+}
+
+.page-header {
+	text-align: left;
+	padding: 40px 0;
+}
+
+.page-header h2 {
+	font-size: 24px;
+}
+
+.side-bar {
+}
+
+@media screen and (max-width: 768px) {
+	#main {
+	}
+}
