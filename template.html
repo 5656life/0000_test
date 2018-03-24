@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	
-<title>Default HTML Set</title>
-
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="keywords" content="">
 <meta name="description" content="">
+	
+<title>Default HTML Set</title>
 	
 <meta property="og:title" content="">
 <meta property="og:description" content="">
@@ -20,12 +20,16 @@
 <link rel="icon" href="" type="image/vnd.microsoft.icon">
 <link rel="apple-touch-icon-precomposed" href="">
 
-<link href="assets/style/common.css" rel="stylesheet" type="text/css">
-<link href="assets/style/layouts.css" rel="stylesheet" type="text/css">
+<link href="css/common.css" rel="stylesheet" type="text/css">
 <link href="style.css" rel="stylesheet" type="text/css">
 	
-<script src="assets/scipt/lib/jquery.min.js"></script>
-<script src="assets/scipt/main.js"></script>
+<script type="text/javascript" src="js/lib/jquery.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+	
+<!--[if lt IE 9]>
+<script src="assets/script/lib/html5shiv.js"></script>
+<script src="assets/script/lib/respond.js"></script>
+<![endif]-->
 	
 </head>
 
@@ -48,7 +52,7 @@
 	</header>
 	<!-- /header -->
 	
-	<main id="main">
+	<div id="main">
 		<div id="mv">MainVisual</div>
 		<div class="page-header">
 			<div class="inner">
@@ -61,7 +65,7 @@
 				<div class="fr">fr</div>
 			</div>
 		</div>
-	</main>
+	</div>
 	<!-- /main -->
 	
 	<footer id="footer">
@@ -84,7 +88,6 @@
 <!-- /wrapper -->
 
 <script>
-/* Google Analytics */
 </script>
 </body>
 </html>
